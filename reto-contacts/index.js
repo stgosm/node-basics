@@ -5,7 +5,7 @@ const fileName = path.join(__dirname, 'contactos.txt');
 
 const crearArchivo = () => {
   fs.writeFile(fileName, '', (err) => {
-    if (err) throw err;
+    // if (err) throw err;
     console.log('El archivo ha sido creado');
   })
 }

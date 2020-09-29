@@ -1,0 +1,9 @@
+# Reto de aprendizaje
+1. Crear un archivo (Si este archivo ya existe, no es necesario crearlo). OK
+2. Solicitar esta información: Nombre, Telefono, Edad. OK,
+3. Guardar la información separada por espacios dentro del archivo. (Javier 1234567890 27). OK.
+4. Mostrar los registros dentro del archivo en el siguiente formato: // Como leer un archivo de texto por línea.
+  - Nombre: Javier
+  - Telefono: 1234567890
+  - Edad: 27 años
+5. Media de edad: (Media de edad de todos los que existen dentro del archivo). // Extra de reto.
