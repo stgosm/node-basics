@@ -14,10 +14,10 @@ axios.get('https://swapi.dev/api/people')
     const fileMale = path.join(__dirname, 'male.json');
 
     const crearArchivo = (pathName) => {
-    fs.writeFile(pathName, '', (err) => {
-        // if (err) throw err;
-        console.log('El archivo ha sido creado');
-    });
+      fs.writeFile(pathName, '', (err) => {
+          // if (err) throw err;
+          console.log('El archivo ha sido creado');
+      });
     }
 
     const crearPersonaje = (pathName, personajes) => {
