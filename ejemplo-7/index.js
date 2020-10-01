@@ -16,6 +16,7 @@ function crearCuenta () {
       { name: 'username', message: 'Introduce un nombre de usuario' },
       { name: 'email', message: 'Introduce tu correo electrónico' },
       { type: 'password', name: 'password', message: 'Introduce una contraseña' },
+      { type: 'password', name: 'password-confirm', message: 'Vuelve a introducir la contraseña' },
       // TODO: Agregar campo de confirmación de contraseña y validar si coincide con la contraseña ingresada.
     ]).then(answers => {
       crearArchivoUsuario(answers.username, answers);
